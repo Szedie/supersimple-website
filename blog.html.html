@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/b954054aff.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index2.html"><img src="image/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index2.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT</a></li>
+                    <li><a href="course.html.html">COURSE</a></li>
+                    <li><a href="blog.html.html">BLOG</a></li>
+                    <li><a href="contact.html.html">CONTACT</a></li>    
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2023-2024</h1>
+
+    </section>
+
+<!---- blog page content ----->
+
+<section class="blog-content">
+
+    <div class="row">
+        <div class="blog-left">
+            <img src="image/certificate.jpg">
+            <h2>Our Certificate & Online Programs For 2023-2024</h2>
+            <p>The broadest type of certification is profession-wide, a type of certification that is portable to wherever the certified professional may work. For example, a Certified Public Accountant can practice as a CPA across the accounting profession. Other examples might include: CFA (Chartered Financial Analyst)</p>
+            <br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia deleniti autem alias adipisci qui impedit blanditiis enim exercitationem suscipit voluptatum! Quia veniam possimus repudiandae placeat alias perferendis tempore? Beatae, vitae?</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius similique hic amet, asperiores illo architecto reiciendis earum officiis ipsam deleniti autem in, tempore, nesciunt et ratione necessitatibus. Ea, consectetur nobis!</p>
+            <br>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit voluptatum officiis, ducimus debitis inventore atque ipsa excepturi voluptatem in perspiciatis natus repellat labore odit! Quisquam incidunt id ad saepe pariatur.</P>
+
+            <div class="comment-box">
+
+                <h3>Leave a Comment</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+
+            </div>
+
+
+
+
+
+
+
+         </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Buisness Analytics</span>
+                <span>23</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>35</span>
+            </div>
+            <div>
+                <span>Technology Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>data Science</span>
+                <span>29</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>30</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+<!----- Footer ----->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Dublin City University. DCU. DCU is proud to be one of the world's leading Young Universities, with a mission to transform lives and societies. <br> Through education, research and innovation, we are focused on delivering real impact, and addressing global challenges in collaboration with our partners and stakeholders.</p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>  
+        <i class="fa-brands fa-twitter"></i>  
+        <i class="fa-brands fa-linkedin-in"></i>  
+        <i class="fa-brands fa-youtube"></i>  
+    </div>
+    <p>Made with <i class="fa solid fa-heart-o"></i>by Szeddani </p>
+</section>
+
+
+<!--------JavaScript for Toggle Menu--------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
